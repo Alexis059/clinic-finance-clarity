@@ -23,16 +23,16 @@ const HeroSection = () => {
               <span className="text-primary">Ясность в финансах за 14 дней</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl">
-              I set up management accounting, plan-fact control, and cash forecast. 
-              Clear for owners, without financial jargon.
+              Выстраиваю управленческий учет под цели собственников. 
+            
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Button variant="hero" size="xl" asChild>
-                <a href="#контакты">Записаться на диакностику</a>
+                <a href="#контакты">Записаться на диагностику</a>
               </Button>
               <Button variant="hero-outline" size="xl" asChild>
-                <a href="#услуги">See Services</a>
+                <a href="#услуги">Услуги</a>
               </Button>
             </div>
 
