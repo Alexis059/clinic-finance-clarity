@@ -29,7 +29,7 @@ const HeroSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Button variant="hero" size="xl" asChild>
-                <a href="#контакты">Get Financial Diagnostics</a>
+                <a href="#контакты">Записаться на диакностику</a>
               </Button>
               <Button variant="hero-outline" size="xl" asChild>
                 <a href="#услуги">See Services</a>
