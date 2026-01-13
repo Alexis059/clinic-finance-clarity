@@ -4,9 +4,9 @@ import expertPhoto from "@/assets/expert-photo.jpg";
 
 const HeroSection = () => {
   const trustPoints = [
-    { icon: Shield, text: "NDA Protected" },
-    { icon: FileCheck, text: "Official Contract" },
-    { icon: Stethoscope, text: "Medical Focus" },
+    { icon: Shield, text: "NDA " },
+    { icon: FileCheck, text: "Заключаем договор" },
+    { icon: Stethoscope, text: "Фокус на Медицину" },
     { icon: Clock, text: "Отвечаем за 2 часа" },
   ];
 
@@ -29,10 +29,10 @@ const HeroSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Button variant="hero" size="xl" asChild>
-                <a href="#contact">Get Financial Diagnostics</a>
+                <a href="#контакты">Get Financial Diagnostics</a>
               </Button>
               <Button variant="hero-outline" size="xl" asChild>
-                <a href="#services">See Services</a>
+                <a href="#услуги">See Services</a>
               </Button>
             </div>
 
@@ -58,7 +58,7 @@ const HeroSection = () => {
                 className="relative w-80 md:w-96 h-auto rounded-3xl shadow-2xl object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border border-border">
-                <p className="text-sm font-medium text-foreground">10+ Years</p>
+                <p className="text-sm font-medium text-foreground">20+ опыт</p>
                 <p className="text-xs text-muted-foreground">Medical Finance Expert</p>
               </div>
             </div>
