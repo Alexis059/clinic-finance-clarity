@@ -19,8 +19,8 @@ const HeroSection = () => {
               Финансовый директор для медицины
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Clinic Profit Under Control:{" "}
-              <span className="text-primary">Financial Clarity in 14 Days</span>
+              Деньги клиники под контролем:{" "}
+              <span className="text-primary">Ясность в финансах за 14 дней</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl">
               I set up management accounting, plan-fact control, and cash forecast. 
