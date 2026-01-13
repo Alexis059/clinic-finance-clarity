@@ -16,10 +16,10 @@ const Header = () => {
 
   const navLinks = [
     { href: "#pains", label: "Problems" },
-    { href: "#results", label: "Results" },
-    { href: "#services", label: "Services" },
+    { href: "#results", label: "Кейсы" },
+    { href: "#services", label: "Услуги" },
     { href: "#process", label: "Process" },
-    { href: "#expert", label: "About" },
+    { href: "#expert", label: "Обо мне" },
     { href: "#faq", label: "FAQ" },
   ];
 
