@@ -7,7 +7,7 @@ const HeroSection = () => {
     { icon: Shield, text: "NDA Protected" },
     { icon: FileCheck, text: "Official Contract" },
     { icon: Stethoscope, text: "Medical Focus" },
-    { icon: Clock, text: "Response in 2h" },
+    { icon: Clock, text: "Отвечаем за 2 часа" },
   ];
 
   return (
