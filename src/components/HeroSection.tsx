@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="animate-fade-up">
             <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-6">
-              Fractional CFO for Medical Businesses
+              Финансовый директор для медицины
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Clinic Profit Under Control:{" "}
@@ -59,7 +59,7 @@ const HeroSection = () => {
               />
               <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border border-border">
                 <p className="text-sm font-medium text-foreground">20+ опыт</p>
-                <p className="text-xs text-muted-foreground">Medical Finance Expert</p>
+                <p className="text-xs text-muted-foreground">Финансовый эксперт</p>
               </div>
             </div>
           </div>
