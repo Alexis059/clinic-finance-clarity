@@ -4,7 +4,7 @@ import { Check, Rocket, Shield, TrendingUp } from "lucide-react";
 const ServicesSection = () => {
   const packages = [
     {
-      name: "Start",
+      name: "Старт",
       icon: Rocket,
       tagline: "Foundation Setup",
       description: "For clinics ready to establish financial clarity",
@@ -20,7 +20,7 @@ const ServicesSection = () => {
       popular: false,
     },
     {
-      name: "Control",
+      name: "Финансы под контролем",
       icon: Shield,
       tagline: "Ongoing Management",
       description: "For owners who want continuous financial oversight",
