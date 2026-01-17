@@ -8,23 +8,23 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "How quickly will I see results?",
-      answer: "You'll receive your first owner dashboard and cash forecast within 14 days of starting. Most clients report feeling more in control within the first month, and measurable improvements in cash management within 2-3 months.",
+      question: "Как быстро я увижу результат?",
+      answer: "Вы получите Ваш первый отчет и понятный дашборд в первые 14 дней работы. Большинство клиентов отмечают, что уже в первый месяц чувствуют больше понимания в бизнесе, а заметные улучшения в управлении цифрами — через 2–3 месяца.",
     },
     {
-      question: "What do I need to prepare before we start?",
-      answer: "Minimal preparation is needed. During our initial call, I'll tell you exactly what documents I need — typically bank statements, your current accounting reports, and access to your accounting software. I handle the heavy lifting of analysis and setup.",
+      question: "Что мне необходимо, чтобы начать работать?",
+      answer: "Нужна минимальная подготовка. Во время нашего первого звонка я точно скажу, какие документы мне понадобятся — обычно это банковские выписки, ваши текущие бухгалтерские отчёты и доступ к вашей бухгалтерской программе. Основную работу по анализу и настройке беру на себя.",
     },
     {
-      question: "How is confidentiality ensured?",
-      answer: "All engagements start with a signed NDA before any information is shared. I work with sensitive medical business data daily and maintain strict confidentiality protocols. Your financial information is never shared with anyone.",
+      question: "Как вы обеспечиваете конфиденциальность данных?",
+      answer: "Все проекты начинаются с подписания NDA (соглашения о неразглашении) до передачи какой-либо информации. Я ежедневно работаю с конфиденциальными данными медицинского бизнеса и соблюдаю строгие протоколы безопасности. Ваша финансовая информация никогда не передаётся третьим лицам.",
     },
     {
-      question: "How is this different from my accountant?",
-      answer: "Accountants focus on tax compliance and historical reporting. I focus on management accounting — helping you understand profitability, forecast cash, and make forward-looking decisions. We complement, not replace, your accountant.",
+      question: "Чем Вы отличаетесь от бухгашлтерии?",
+      answer: "Бухгалтеры в основном сосредоточены на налоговом учёте, соблюдении требований и отчётности по прошлым периодам. Я фокусируюсь на управленческом учёте — помогаю вам понимать прибыльность, прогнозировать денежные потоки и принимать решения на основе будущих показателей. Мы дополняем работу вашего бухгалтера, а не заменяем его.",
     },
     {
-      question: "Do I need to understand finance to work with you?",
+      question: "Нужно ли мне разбираться в финансах, чтобы работать с вами?",
       answer: "Not at all. My job is to translate complex financial data into simple, actionable insights. The dashboards I create are designed for busy clinic owners, not finance professionals. If you can read a simple chart, you're ready.",
     },
     {
@@ -45,10 +45,10 @@ const FAQSection = () => {
             FAQ
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Frequently Asked Questions
+            Частые вопросы
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Common questions from clinic owners considering financial management support.
+            Частые вопросы от владельцев клиник.
           </p>
         </div>
 
