@@ -20,16 +20,16 @@ const FAQSection = () => {
       answer: "Все проекты начинаются с подписания NDA (соглашения о неразглашении) до передачи какой-либо информации. Я ежедневно работаю с конфиденциальными данными медицинского бизнеса и соблюдаю строгие протоколы безопасности. Ваша финансовая информация никогда не передаётся третьим лицам.",
     },
     {
-      question: "Чем Вы отличаетесь от бухгашлтерии?",
+      question: "Чем Вы отличаетесь от бухгалтерии?",
       answer: "Бухгалтеры в основном сосредоточены на налоговом учёте, соблюдении требований и отчётности по прошлым периодам. Я фокусируюсь на управленческом учёте — помогаю вам понимать прибыльность, прогнозировать денежные потоки и принимать решения на основе будущих показателей. Мы дополняем работу вашего бухгалтера, а не заменяем его.",
     },
     {
       question: "Нужно ли мне разбираться в финансах, чтобы работать с вами?",
-      answer: "Not at all. My job is to translate complex financial data into simple, actionable insights. The dashboards I create are designed for busy clinic owners, not finance professionals. If you can read a simple chart, you're ready.",
+      answer: "Вовсе нет. Моя задача — переводить сложные финансовые данные в простые и практичные выводы. Дашборды, которые я создаю, рассчитаны на занятых владельцев клиник, а не на финансовых специалистов. Если вы можете понять простой график — вы готовы.",
     },
     {
-      question: "Is this suitable for a small clinic with just 5-10 employees?",
-      answer: "Absolutely. In fact, small clinics often benefit the most because owners wear many hats and don't have time for complex financial management. The Start package is specifically designed for clinics at this stage.",
+      question: "Подходит ли это для небольшой клиники с 5–10 сотрудниками?",
+      answer: "Безусловно. На самом деле небольшие клиники часто получают наибольшую пользу, потому что владельцы совмещают много ролей и у них нет времени на сложное финансовое управление. Пакет Старт разработан специально для клиник на этом этапе",
     },
     {
       question: "What if I'm not ready for ongoing support?",
