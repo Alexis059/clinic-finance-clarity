@@ -64,21 +64,21 @@ const ContactSection = () => {
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <Shield className="w-4 h-4 text-primary" />
-                    <span>No spam, ever</span>
+                    <span>Без спама</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4 text-primary" />
-                    <span>Response within 2h</span>
+                    <span>Ответим в течении 6 часов</span>
                   </div>
                 </div>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Your Name *</Label>
+                  <Label htmlFor="name">Ваше имя *</Label>
                   <Input
                     id="name"
-                    placeholder="Anna Petrova"
+                    placeholder="Анна Петрова"
                     value={formData.name}
                     onChange={(e) =>
                       setFormData({ ...formData, name: e.target.value })
@@ -89,7 +89,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="contact">Phone or Messenger *</Label>
+                  <Label htmlFor="contact">Контактные данные *</Label>
                   <Input
                     id="contact"
                     placeholder="+7 (999) 123-45-67 or @telegram"
@@ -103,10 +103,10 @@ const ContactSection = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="clinicName">Clinic Name (optional)</Label>
+                  <Label htmlFor="clinicName">Организация (не обязательно)</Label>
                   <Input
                     id="clinicName"
-                    placeholder="Family Dental Clinic"
+                    placeholder="Семейная стоматология"
                     value={formData.clinicName}
                     onChange={(e) =>
                       setFormData({ ...formData, clinicName: e.target.value })
@@ -122,12 +122,12 @@ const ContactSection = () => {
                   className="w-full mt-6"
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? "Sending..." : "Get Diagnostics"}
+                  {isSubmitting ? "Sending..." : "Записаться на диагностику"}
                 </Button>
 
                 <p className="text-xs text-center text-muted-foreground mt-4">
-                  By submitting, you agree to our Privacy Policy. 
-                  We'll respond during business hours (Mon-Fri, 9:00-18:00).
+                  Отправляя форму, вы соглашаетесь с нашей Политикой конфиденциальности. 
+                  Мы ответим в рабочие часы (пн–пт, 9:00–18:00).
                 </p>
               </form>
             </div>
