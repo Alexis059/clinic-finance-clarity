@@ -21,8 +21,8 @@ const ContactSection = () => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
     
     toast({
-      title: "Request Received!",
-      description: "We'll contact you within 2 business hours.",
+      title: "Мы получили Вашу заявку",
+      description: "Мы свяжемся с Вами в течении 6 часов",
     });
     
     setFormData({ name: "", contact: "", clinicName: "" });
@@ -46,11 +46,10 @@ const ContactSection = () => {
                   Get Started
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                  Get Your Clinic Financial Diagnostics
+                  Получите финансовую диагностику Вашей клиники
                 </h2>
                 <p className="text-muted-foreground text-lg mb-8">
-                  Take the first step toward financial clarity. Request a free 
-                  diagnostics call and get a personalized action plan.
+                  Сделайте первый шаг к финансовой ясности. После бесплатной диагностики Вы получите персональный план действий.
                 </p>
 
                 <ul className="space-y-4 mb-8">
