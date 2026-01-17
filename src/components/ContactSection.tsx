@@ -30,9 +30,9 @@ const ContactSection = () => {
   };
 
   const benefits = [
-    "Free 30-minute diagnostics call",
-    "Personalized action plan",
-    "No obligation to continue",
+    "Бесплатная диагностика",
+    "Индивидуальный подход",
+    "Пошаговый план действий",
   ];
 
   return (
