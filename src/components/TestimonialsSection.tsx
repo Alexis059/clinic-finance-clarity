@@ -3,21 +3,21 @@ import { Star, Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "Finally, I know exactly how much I can withdraw without hurting the business. The peace of mind is priceless.",
-      author: "Dr. Elena Petrova",
-      role: "Owner, Family Dental Clinic",
+      quote: "Теперь я точно понимаю, какую сумму можно выводить, не рискуя стабильностью бизнеса. Чувство уверенности — бесценно.",
+      author: "Доктор Елена Кужегутова",
+      role: "Собственник, Семейная стоматологическая клиника",
       rating: 5,
     },
     {
-      quote: "We eliminated cash gaps completely within 2 months. Now I focus on patients, not on chasing money.",
-      author: "Mikhail Sorokin",
-      role: "Director, Medical Center 'Health+'",
+      quote: "Мы полностью устранили кассовые разрывы всего за 2 месяца. Теперь я думаю о пациентах, а не о деньгах.",
+      author: "Михаил Сорокевич",
+      role: "Генеральный директор, Многопрофильный медицинский центр'",
       rating: 5,
     },
     {
-      quote: "The weekly dashboard takes me 5 minutes to review and I see everything. Best investment this year.",
-      author: "Dr. Anna Volkova",
-      role: "Owner, Aesthetic Medicine Clinic",
+      quote: "5 минут в неделю — и вся картина бизнеса перед глазами. Лучшая инвестиция этого года.",
+      author: "Доктор Анаа Волчихина",
+      role: "Владелец клиники эстетической медицины",
       rating: 5,
     },
   ];
