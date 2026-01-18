@@ -24,16 +24,16 @@ const TestimonialsSection = () => {
 
   const caseStudies = [
     {
-      title: "Multi-Location Dental Network",
-      problem: "Cash gaps 2-3 times per month, no visibility across 3 locations",
-      actions: "Unified reporting, payment calendar, consolidated dashboard",
-      results: "Zero cash gaps, 15% reduction in operating costs, owner spends 2h/week on finances",
+      title: "Сеть стоматологических клиник",
+      problem: "Кассовые разрывы. Нет четкой финансовой картины по филиалам",
+      actions: "Внедрили платежный календарь, создали финансовые отчеты по филиалам",
+      results: "Кассовые разрывы — в прошлом, есть четкие финансовые показатели по всем филиалам.",
     },
     {
-      title: "Private Medical Center",
-      problem: "Profitable on paper but constant cash shortage, delayed supplier payments",
-      actions: "Cash flow restructuring, 8-week forecast, reserve fund rules",
-      results: "3 months of reserves built, all payments on time, owner took first guilt-free vacation",
+      title: "Частный медицинский центр",
+      problem: "Прибыль “на бумаге”, а в реальности — кассовый дефицит и просрочки по оплате поставщикам",
+      actions: "Перестроили управление деньгами, внедрили ДДС, платежный календарь",
+      results: "Создан управляемый резерв, кассовые разрывы ликвидированы",
     },
   ];
 
