@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Shield, FileCheck, Clock, Stethoscope } from "lucide-react";
-import expertPhoto from "@/assets/женя.jpg";
+import expertPhoto from "@/assets/expert-photo.jpg";
 
 const HeroSection = () => {
   const trustPoints = [
