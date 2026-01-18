@@ -60,13 +60,13 @@ const ServicesSection = () => {
       <div className="section-container">
         <div className="text-center mb-12 md:mb-16">
           <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
-            Services
+            Услуги
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Choose Your Format
+            Выбери свой тариф
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Flexible engagement options designed for different stages of your clinic's journey.
+            Гибкие форматы сотрудничества для клиник на любом этапе развития.
           </p>
         </div>
 
