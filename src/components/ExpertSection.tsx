@@ -1,5 +1,5 @@
 import { Shield, Award, Users, Building } from "lucide-react";
-import expertPhoto from "@/assets/expert-photo.jpg";
+import expertPhoto from "@/assets/zhenya.jpg";
 
 const ExpertSection = () => {
   const credentials = [
