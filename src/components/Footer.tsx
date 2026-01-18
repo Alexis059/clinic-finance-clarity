@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">CF</span>
             </div>
-            <span className="font-semibold text-foreground">Clinic Finance</span>
+            <span className="font-semibold text-foreground">ЭконКонсалт</span>
           </div>
 
           <p className="text-sm text-muted-foreground">
@@ -18,10 +18,10 @@ const Footer = () => {
 
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-foreground transition-colors">
-              Privacy Policy
+              Пользовательское соглашение
             </a>
             <a href="#" className="hover:text-foreground transition-colors">
-              Terms of Service
+              Условия использования
             </a>
           </div>
         </div>
