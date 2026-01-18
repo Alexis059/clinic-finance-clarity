@@ -38,7 +38,7 @@ const Header = () => {
               <span className="text-primary-foreground font-bold text-sm">CF</span>
             </div>
             <span className="font-semibold text-foreground hidden sm:block">
-              Clinic Finance
+              ЭконКонсалт
             </span>
           </a>
 
@@ -56,7 +56,7 @@ const Header = () => {
 
           <div className="flex items-center gap-3">
             <Button variant="hero" size="lg" className="hidden sm:flex" asChild>
-              <a href="#contact">Financial Diagnostics</a>
+              <a href="#contact">Записаться на диагностику</a>
             </Button>
             <button
               className="md:hidden p-2 text-foreground"
@@ -83,7 +83,7 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="hero" size="lg" className="mt-2" asChild>
-                <a href="#contact">Financial Diagnostics</a>
+                <a href="#contact">Записаться на диагностику</a>
               </Button>
             </nav>
           </div>
