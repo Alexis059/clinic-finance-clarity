@@ -5,6 +5,13 @@ import { Label } from "@/components/ui/label";
 import { Shield, Clock, CheckCircle } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
+const FORM_ACTION_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSeMht_FFhu7jCt3U1_Rx2bIknlVeZ8cnFTi9YDC9_xwZaeCwQ/formResponse";
+
+const ENTRY_NAME = "entry.659264613";
+const ENTRY_CONTACT = "entry.938831039";
+const ENTRY_ORG = "entry.505228374";
+
 const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -16,17 +23,36 @@ const ContactSection = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    
-    toast({
-      title: "Мы получили Вашу заявку",
-      description: "Мы свяжемся с Вами в течении 6 часов",
-    });
-    
-    setFormData({ name: "", contact: "", clinicName: "" });
-    setIsSubmitting(false);
+
+    try {
+      const data = new URLSearchParams();
+      data.append(ENTRY_NAME, formData.name);
+      data.append(ENTRY_CONTACT, formData.contact);
+      // если "Организация" в Google Form обязательная — отправим "-" когда поле пустое
+      data.append(ENTRY_ORG, formData.clinicName?.trim() ? formData.clinicName : "-");
+
+      await fetch(FORM_ACTION_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: data.toString(),
+      });
+
+      toast({
+        title: "Мы получили Вашу заявку",
+        description: "Мы свяжемся с Вами в течении 6 часов",
+      });
+
+      setFormData({ name: "", contact: "", clinicName: "" });
+    } catch {
+      toast({
+        title: "Не удалось отправить заявку",
+        description: "Проверьте интернет и попробуйте ещё раз.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const benefits = [
@@ -122,11 +148,11 @@ const ContactSection = () => {
                   className="w-full mt-6"
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? "Sending..." : "Записаться на диагностику"}
+                  {isSubmitting ? "Отправка..." : "Записаться на диагностику"}
                 </Button>
 
                 <p className="text-xs text-center text-muted-foreground mt-4">
-                  Отправляя форму, вы соглашаетесь с нашей Политикой конфиденциальности. 
+                  Отправляя форму, вы соглашаетесь с нашей Политикой конфиденциальности.
                   Мы ответим в рабочие часы (пн–пт, 9:00–18:00).
                 </p>
               </form>
@@ -137,5 +163,8 @@ const ContactSection = () => {
     </section>
   );
 };
+
+export default ContactSection;
+
 
 export default ContactSection;
