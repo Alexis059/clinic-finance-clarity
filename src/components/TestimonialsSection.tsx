@@ -42,13 +42,13 @@ const TestimonialsSection = () => {
       <div className="section-container">
         <div className="text-center mb-12 md:mb-16">
           <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
-            Social Proof
+            Нам доверяют
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Trusted by Clinic Owners
+            Нас выбирают владельцы клиник
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Real results from medical professionals who transformed their financial management.
+            Истории успеха клиник.
           </p>
         </div>
 
