@@ -2,28 +2,28 @@ const ProcessSection = () => {
   const steps = [
     {
       number: "01",
-      title: "Free Diagnostics Call",
-      description: "30-minute call to understand your clinic's financial situation and challenges.",
+      title: "Бесплатная диагностика",
+      description: "Онлайн встреча чтобы разобраться в финансовой ситуации вашей клиники и её ключевых задачах.",
     },
     {
       number: "02",
-      title: "Financial Audit",
-      description: "Deep dive into your current reports, cash flows, and financial processes.",
+      title: "Финансовый аудит",
+      description: "Комплексный анализ ваших текущих отчётов, денежных потоков и финансовых процессов.",
     },
     {
       number: "03",
-      title: "System Setup",
-      description: "Configure management accounting, dashboards, and reporting tailored to your clinic.",
+      title: "Настройка системы управленческого учета",
+      description: "Настроим управленческий учёт, дашборды и отчётность, адаптированные под вашу клинику.",
     },
     {
       number: "04",
-      title: "First Reports",
-      description: "Receive your first owner dashboard and cash forecast within 14 days.",
+      title: "Первый отчет",
+      description: "Получите ваш первый дашборд и отчетность в течение 14 дней.",
     },
     {
       number: "05",
-      title: "Ongoing Support",
-      description: "Regular updates, analysis, and strategic guidance as your clinic grows.",
+      title: "Регулярное сопровождение",
+      description: "Регулярные обновления, анализ и стратегические рекомендации по мере роста вашей клиники.",
     },
   ];
 
