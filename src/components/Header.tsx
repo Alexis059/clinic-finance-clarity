@@ -15,10 +15,10 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { href: "#pains", label: "Problems" },
+    { href: "#pains", label: "Проблемы" },
     { href: "#results", label: "Кейсы" },
     { href: "#services", label: "Услуги" },
-    { href: "#process", label: "Process" },
+    { href: "#process", label: "Как мы работаем" },
     { href: "#expert", label: "Обо мне" },
     { href: "#faq", label: "FAQ" },
   ];
