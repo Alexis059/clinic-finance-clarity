@@ -32,8 +32,8 @@ const FAQSection = () => {
       answer: "Безусловно. На самом деле небольшие клиники часто получают наибольшую пользу, потому что владельцы совмещают много ролей и у них нет времени на сложное финансовое управление. Пакет Старт разработан специально для клиник на этом этапе",
     },
     {
-      question: "What if I'm not ready for ongoing support?",
-      answer: "That's perfectly fine. The Start package is a one-time setup that gives you the foundation. Many clients begin there and upgrade to Control when they're ready for ongoing support.",
+      question: "Что, если я не готов(а) к постоянному сопровождению?",
+      answer: "Это совершенно нормально. Пакет Старт — это настройка учета, которая даёт вам прочную основу. Многие клиенты начинают с него и переходят на другие тарифы, когда готовы к постоянному сопровождению.",
     },
   ];
 
