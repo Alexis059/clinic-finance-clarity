@@ -43,7 +43,7 @@ const ContactSection = () => {
             <div className="grid lg:grid-cols-2 gap-10 lg:gap-16">
               <div>
                 <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
-                  Get Started
+                  Сделай первый шаг
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
                   Получите финансовую диагностику Вашей клиники
