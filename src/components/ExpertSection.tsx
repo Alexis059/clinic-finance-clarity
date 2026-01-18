@@ -3,10 +3,10 @@ import expertPhoto from "@/assets/expert-photo.jpg";
 
 const ExpertSection = () => {
   const credentials = [
-    { icon: Building, text: "50+ medical businesses served" },
-    { icon: Users, text: "Clinics from 5 to 200 employees" },
-    { icon: Award, text: "Certified Financial Professional" },
-    { icon: Shield, text: "All projects under NDA" },
+    { icon: Building, text: "50+ медицинских бизнесов уже получили результат" },
+    { icon: Users, text: "Опыт с клиниками любого масштаба" },
+    { icon: Award, text: "Сертифицированный финансовый эксперт" },
+    { icon: Shield, text: "Ваши данные защищены: все проекты оформляются NDA" },
   ];
 
   return (
@@ -15,20 +15,16 @@ const ExpertSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="order-2 lg:order-1">
             <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
-              Your Financial Partner
+              Ваш финансовый партнер
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Specialized in Medical Business Finance
+              Профильная экспертиза: финансы клиник и медцентров
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              With over 10 years of experience working exclusively with healthcare businesses, 
-              I understand the unique financial challenges of running a medical practice. 
-              From cash flow management to growth planning, I help clinic owners gain clarity 
-              and control over their finances.
+              Более 10 лет я работаю исключительно с медицинским бизнесом и отлично понимаю специфические сложности управления клиникой. От управления денежными потоками до планирования роста — я помогаю владельцам клиник обрести ясность и контроль над финансами.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              I believe in making finance simple and actionable. No jargon, no confusing reports — 
-              just clear insights that help you make better decisions for your clinic.
+              Моя философия — простота и польза. Вместо сложных формулировок и перегруженных отчётов вы получаете понятную картину и рекомендации, которые действительно работают для вашей клиники.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
