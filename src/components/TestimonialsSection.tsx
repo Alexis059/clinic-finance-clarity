@@ -81,15 +81,15 @@ const TestimonialsSection = () => {
               
               <div className="space-y-4">
                 <div>
-                  <p className="text-sm font-medium text-destructive mb-1">Problem</p>
+                  <p className="text-sm font-medium text-destructive mb-1">Проблема</p>
                   <p className="text-muted-foreground">{study.problem}</p>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-primary mb-1">Actions</p>
+                  <p className="text-sm font-medium text-primary mb-1">Что сделано</p>
                   <p className="text-muted-foreground">{study.actions}</p>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-accent-foreground mb-1">Results</p>
+                  <p className="text-sm font-medium text-accent-foreground mb-1">Результат</p>
                   <p className="text-foreground font-medium">{study.results}</p>
                 </div>
               </div>
