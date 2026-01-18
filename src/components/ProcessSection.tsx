@@ -32,13 +32,13 @@ const ProcessSection = () => {
       <div className="section-container">
         <div className="text-center mb-12 md:mb-16">
           <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
-            How It Works
+            Как мы работаем
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            From Chaos to Clarity
+            От хаоса в финансах — к ясности
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A structured approach to transform your clinic's financial management.
+            Структурный подход, который поможет настроить финансовое управление вашей клиники..
           </p>
         </div>
 
