@@ -11,33 +11,33 @@ const ResultsSection = () => {
   const results = [
     {
       icon: TrendingUp,
-      title: "Transparent Profit & Margins",
-      description: "Know your real profitability by service, doctor, and location. No more guessing.",
+      title: "Четкая картина прибыли и маржинальности",
+      description: "Дадим чёткую картину реальной прибыльности по направлениям, услугам и врачам.",
     },
     {
       icon: Target,
-      title: "Plan vs Fact Control",
-      description: "Monthly budget tracking with clear variance analysis. Stay on target.",
+      title: "План–факт под контролем",
+      description: "Отслеживаем бюджет каждый месяц и показываем отклонения план–факт — чтобы вы оставались в рамках цели",
     },
     {
       icon: Calendar,
-      title: "Cash Forecast (4-8 Weeks)",
-      description: "See your cash position ahead. No more surprises or emergency borrowing.",
+      title: "Прогноз денежных потоков",
+      description: "Планируйте деньги вперёд и чувствуйте спокойствие: никаких кассовых разрывов, никаких срочных кредитов",
     },
     {
       icon: CreditCard,
-      title: "Payment Calendar",
-      description: "All payments scheduled and prioritized. Never miss critical deadlines.",
+      title: "Платежный календарь",
+      description: "Платежи под контролем: расписаны и расставлены по приоритетам — без просрочек и спешки.",
     },
     {
       icon: LayoutDashboard,
-      title: "Owner Dashboard",
-      description: "All key metrics on one screen. Updated weekly, takes 5 minutes to review.",
+      title: "Дашборд для собственника",
+      description: "Вся картина бизнеса — на одном экране. Обновляем еженедельно: 5 минут, и вы в курсе главного.",
     },
     {
       icon: ShieldCheck,
-      title: "Financial Discipline & Rules",
-      description: "Clear policies for withdrawals, reserves, and approvals. Peace of mind.",
+      title: "Дисциплина в финансах: правила и контроль",
+      description: "Понятные правила для вывода средств, резервов и согласований — спокойствие и порядок.",
     },
   ];
 
@@ -46,13 +46,13 @@ const ResultsSection = () => {
       <div className="section-container">
         <div className="text-center mb-12 md:mb-16">
           <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
-            What You Get
+            Что входит
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Results You Can Expect
+            Что вы получите в результате
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Clear systems and tools that give you control over your clinic's finances.
+            Понятные отчеты и инструменты, которые дают вам полный контроль над финансами клиники.
           </p>
         </div>
 
