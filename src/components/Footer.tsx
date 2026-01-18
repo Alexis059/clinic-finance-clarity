@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Clinic Finance. All rights reserved.
+            © {currentYear} ЭконКонсалт. Все права защищены.
           </p>
 
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
