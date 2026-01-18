@@ -2,14 +2,14 @@ import { AlertCircle } from "lucide-react";
 
 const PainsSection = () => {
   const pains = [
-    "There is profit on paper, but no cash in the account",
-    "I don't know how much I can safely withdraw from the business",
-    "Cash gaps every month because of salaries, rent, and supplies",
-    "Financial reports arrive too late to make decisions",
-    "Finance depends entirely on one accountant or manager",
-    "Reports exist but don't actually help manage the business",
-    "No clear picture of where money goes and why",
-    "Afraid of growing because finances feel out of control",
+    "В отчете прибыль есть, а денег нет",
+    "Я не понимаю, сколько можно безопасно выводить из бизнеса",
+    "Каждый месяц кассовые разрывы из-за зарплат, аренды и расходников",
+    "Финансовые отчёты составляются слишком поздно, чтобы принимать решения",
+    "Финансы полностью зависят от бухгалтерских данных",
+    "Отчёты есть, но они не помогают управлять бизнесом",
+    "Нет ясной картины: куда и почему уходят деньги",
+    "Страшно расти, потому что финансы кажутся неуправляемыми",
   ];
 
   return (
@@ -17,14 +17,13 @@ const PainsSection = () => {
       <div className="section-container">
         <div className="text-center mb-12 md:mb-16">
           <span className="inline-block px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
-            Sound Familiar?
+            Вам это знакомо?
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Common Financial Pains of Clinic Owners
+            Финансовые проблемы владельцев частных клиник
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            If you recognize yourself in any of these situations, you're not alone. 
-            Most clinic owners face these challenges.
+            Если вы узнаёте себя в любой из этих ситуаций — вы не одни. С такими трудностями сталкивается большинство владельцев клиник.
           </p>
         </div>
 
